@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>PizzaBurger — Livrare la domiciliu</title>
+	<link
+			href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
+			rel="stylesheet"
+	/>
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<a href="index.html" class="logo">
+				<img src="img/icon/logo.svg" alt="Logo"/>
+			</a>
+			<label class="address">
+				<input type="text" class="input input-address" placeholder="adresă de livrare"/>
+			</label>
+			<div class="buttons">
+				<button class="button button-primary button-auth">
+					<span class="button-auth-svg"></span>
+					<span class="button-text">Intra</span>
+				</button>
+				<button class="button" id="cart-button">
+					<span class="button-cart-svg"></span>
+					<span class="button-text">In cos</span>
+				</button>
+			</div>
+		</header>
+	</div>
+	<!-- /.container  -->
+
+	<main class="main">
+		<div class="container">
+			<section class="menu">
+				<div class="section-heading">
+					<h2 class="section-title restaurant-title">Pizza Plus</h2>
+					<div class="card-info">
+						<div class="rating">
+							4.5
+						</div>
+						<div class="price">De la 900 lei</div>
+						<div class="category">Pizza</div>
+					</div>
+					<!-- /.card-info -->
+				</div>
+				<div class="cards cards-menu">
+					<div class="card">
+						<img src="img/pizza-plus/pizza-vesuvius.jpg" alt="image" class="card-image"/>
+						<div class="card-text">
+							<div class="card-heading">
+								<h3 class="card-title card-title-reg">Pizza Vezuviu</h3>
+							</div>
+							<!-- /.card-heading -->
+							<div class="card-info">
+								<div class="ingredients">Sos de roșii, brânză Mozzarella, șuncă, pepperoni, piper
+									Jalapeñe, sos Tobasco, roșii.
+								</div>
+							</div>
+							<!-- /.card-info -->
+							<div class="card-buttons">
+								<button class="button button-primary button-add-cart">
+									<span class="button-card-text">In cos</span>
+									<span class="button-cart-svg"></span>
+								</button>
+								<strong class="card-price-bold">48 lei</strong>
+							</div>
+						</div>
+						<!-- /.card-text -->
+					</div>
+					<!-- /.card -->
+
+					<div class="card">
+						<img src="img/pizza-plus/pizza-girls.jpg" alt="image" class="card-image"/>
+						<div class="card-text">
+							<div class="card-heading">
+								<h3 class="card-title card-title-reg">Bachelorette Pizza</h3>
+							</div>
+							<!-- /.card-heading -->
+							<div class="card-info">
+								<div class="ingredients">Sos de roșii, aluat slab, brânză cu conținut scăzut de grăsimi, porumb, ceapă, măsline,
+									ciuperci, roșii, ardei grași.
+								</div>
+							</div>
+							<!-- /.card-info -->
+							<div class="card-buttons">
+								<button class="button button-primary button-add-cart">
+									<span class="button-card-text">In cos</span>
+									<span class="button-cart-svg"></span>
+								</button>
+								<strong class="card-price-bold">45 lei</strong>
+							</div>
+						</div>
+						<!-- /.card-text -->
+					</div>
+					<!-- /.card -->
+
+					<div class="card">
+						<img src="img/pizza-plus/pizza-oleole.jpg" alt="image" class="card-image"/>
+						<div class="card-text">
+							<div class="card-heading">
+								<h3 class="card-title card-title-reg">Pizza Ole-Ole</h3>
+							</div>
+							<!-- /.card-heading -->
+							<div class="card-info">
+								<div class="ingredients">Sos de roșii, brânză Mozzarella, roșii cherry, măsline, ierburi, maioneză
+								</div>
+							</div>
+							<!-- /.card-info -->
+							<div class="card-buttons">
+								<button class="button button-primary button-add-cart">
+									<span class="button-card-text">In cos</span>
+									<span class="button-cart-svg"></span>
+								</button>
+								<strong class="card-price-bold">69 lei</strong>
+							</div>
+						</div>
+						<!-- /.card-text -->
+					</div>
+					<!-- /.card -->
+
+					<div class="card">
+						<img src="img/pizza-plus/pizza-plus.jpg" alt="image" class="card-image"/>
+						<div class="card-text">
+							<div class="card-heading">
+								<h3 class="card-title card-title-reg">Pizza Plus</h3>
+							</div>
+							<!-- /.card-heading -->
+							<div class="card-info">
+								<div class="ingredients">Sos de roșii, brânză Mozzarella, brânză Cheddar, roșii, pepperoni,
+									vitel, ciuperci, slănină, ardei gras.
+								</div>
+							</div>
+							<!-- /.card-info -->
+							<div class="card-buttons">
+								<button class="button button-primary button-add-cart">
+									<span class="button-card-text">In cos</span>
+									<span class="button-cart-svg"></span>
+								</button>
+								<strong class="card-price-bold">75 lei</strong>
+							</div>
+						</div>
+						<!-- /.card-text -->
+					</div>
+					<!-- /.card -->
+
+					<div class="card">
+						<img src="img/pizza-plus/pizza-hawaiian.jpg" alt="image" class="card-image"/>
+						<div class="card-text">
+							<div class="card-heading">
+								<h3 class="card-title card-title-reg">Pizza hawaiana</h3>
+							</div>
+							<!-- /.card-heading -->
+							<div class="card-info">
+								<div class="ingredients">Sos de roșii, brânză Mozzarella, șuncă, ananas</div>
+							</div>
+							<!-- /.card-info -->
+							<div class="card-buttons">
+								<button class="button button-primary button-add-cart">
+									<span class="button-card-text">In Cos</span>
+									<span class="button-cart-svg"></span>
+								</button>
+								<strong class="card-price-bold">44 lei</strong>
+							</div>
+						</div>
+						<!-- /.card-text -->
+					</div>
+					<!-- /.card -->
+
+					<div class="card">
+						<img src="img/pizza-plus/pizza-classic.jpg" alt="image" class="card-image"/>
+						<div class="card-text">
+							<div class="card-heading">
+								<h3 class="card-title card-title-reg">Pizza Classic</h3>
+							</div>
+							<!-- /.card-heading -->
+							<div class="card-info">
+								<div class="ingredients">sos de roșii, brânză Mozzarella, parmezan, șuncă, salam,
+									ciuperci.
+								</div>
+							</div>
+							<!-- /.card-info -->
+							<div class="card-buttons">
+								<button class="button button-primary button-add-cart">
+									<span class="button-card-text">In cos</span>
+									<span class="button-cart-svg"></span>
+								</button>
+								<strong class="card-price-bold">51 lei</strong>
+							</div>
+						</div>
+						<!-- /.card-text -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.cards -->
+			</section>
+		</div>
+		<!-- /.container -->
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<img src="img/icon/logo.svg" alt="logo" class="logo footer-logo"/>
+				<nav class="footer-nav">
+					<a href="#" class="footer-link">Restaurante </a>
+					<a href="#" class="footer-link">Pentru curieri</a>
+					<a href="#" class="footer-link">Centrul de presă</a>
+					<a href="#" class="footer-link">Contacte</a>
+				</nav>
+				<div class="social-links">
+					<a href="#" class="social-link"><img src="img/social/instagram.svg" alt="instagram"/></a>
+					<a href="#" class="social-link"><img src="img/social/fb.svg" alt="facebook"/></a>
+					<a href="#" class="social-link"><img src="img/social/vk.svg" alt="vk"/></a>
+				</div>
+				<!-- /.social-links -->
+			</div>
+			<!-- /.footer-block -->
+		</div>
+	</footer>
+
+	<div class="modal modal-cart">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h3 class="modal-title">In cos</h3>
+				<button class="close">&times;</button>
+			</div>
+			<!-- /.modal-header -->
+			<div class="modal-body">
+				<div class="food-row">
+					<span class="food-name">Roll anghila standard</span>
+					<strong class="food-price">35 lei</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+				<div class="food-row">
+					<span class="food-name">Roll anghila standard</span>
+					<strong class="food-price">45 lei</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+				<div class="food-row">
+					<span class="food-name">Roll anghila standard</span>
+					<strong class="food-price">55 lei</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+				<div class="food-row">
+					<span class="food-name">Roll anghila standard</span>
+					<strong class="food-price">40 lei</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+			</div>
+			<!-- /.modal-body -->
+			<div class="modal-footer">
+				<span class="modal-pricetag">90 lei</span>
+				<div class="footer-buttons">
+					<button class="button button-primary">Verifică</button>
+					<button class="button clear-cart">Anulați</button>
+				</div>
+			</div>
+			<!-- /.modal-footer -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>
